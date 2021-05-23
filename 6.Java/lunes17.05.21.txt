@@ -1,0 +1,100 @@
+NÚMERO POSITIVO, CERO Y NEGATIVO
+
+package javaapplication5;
+import java.util.Scanner;//importar scanner para colocar valor como variable
+//para colocar numero variables siempre colocar Scanner
+
+ 
+  //@author pablo
+
+public class JavaApplication5 {
+
+    
+    public static void main(String[] args) {
+       
+        Scanner leer=new Scanner(System.in);
+        int num1,num2,num3,a=4, suma, prom;
+}{so
+        System.out.println("ingrese un numero");
+        num1=leer.nextInt();
+        if(num1 >0){
+            System.out.println("el número es +");
+            
+        }else{
+            if(num1==0)
+                System.out.print("el número es 0";
+        }els{
+        system.out.print("el número es -");
+        
+                   
+        }
+        
+    }
+    
+NÚMERO PAR Y POSITIVO
+
+ To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package javaapplication5;
+import java.util.Scanner;//importar scanner para colocar valor como variable
+//para colocar numero variables siempre colocar Scanner
+
+ 
+  //@author pablo
+
+public class JavaApplication5 {
+
+    
+    public static void main(String[] args) {
+       
+        Scanner leer=new Scanner(System.in);
+        int num1,num2,num3,a=4, suma, prom;
+        System.out.println("ingrese un numero");
+        num1=leer.nextInt();
+        if(num1%2==0&&num1>0){//numero par y positivo
+            System.out.println("el número es par y +");
+       
+        
+    
+                
+        }
+        
+    }
+
+NUMERO PAR Y MAYOR
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package javaapplication5;
+import java.util.Scanner;//importar scanner para colocar valor como variable
+//para colocar numero variables siempre colocar Scanner
+
+ 
+  //@author pablo
+
+public class JavaApplication5 {
+
+    
+    public static void main(String[] args) {
+       
+        Scanner leer=new Scanner(System.in);
+        int num1,num2,num3,a=4, suma, prom;
+        System.out.println("ingrese un numero");
+        num1=leer.nextInt();
+        System.out.println("ingrese otro numero");
+        num2=leer.nextInt();
+        
+        
+        if(num1%2==0&&num2>0){//numero par y positivo
+            System.out.println("el número es par y número es mayor");
+       
+           
+                
+        }
+        
+    }
+    

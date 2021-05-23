@@ -1,0 +1,15 @@
+public static void main(String[] args) {
+       
+        Scanner leer=new Scanner(System.in);
+        
+        
+    int num1=80, num2=20, num3=30, num4=60, suma, resta, prom;
+    suma=num1+num2+num3+num4;
+    resta=num1-num2;
+    prom=suma/4;
+    
+        System.out.println("la suma es " + suma);
+        System.out.println("la resta es " + resta);
+        System.out.println("el promedio es " + prom);
+        
+        

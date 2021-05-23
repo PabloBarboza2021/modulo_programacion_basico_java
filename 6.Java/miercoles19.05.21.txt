@@ -1,0 +1,78 @@
+
+INDICAR DÍAS DE LA SEMANA POR SWITCH
+
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package javaapplication5;
+import java.util.Scanner;//importar scanner para colocar valor como variable
+//para colocar numero variables siempre colocar Scanner
+
+ 
+  //@author pablo
+
+public class JavaApplication5 {
+        public static void main(String[] args) {
+               Scanner leer=new Scanner(System.in);
+        int n; 
+                System.out.println("indique numero de día");
+        n=leer.nextInt();
+              
+       switch(n){
+            case 1:
+               System.out.println("hoy es lunes");
+               
+               break;
+             case 2:
+               System.out.println("hoy es martes");
+           
+               break;
+               
+            case 3:
+               System.out.println("hoy es miercoles");
+               
+               break;
+                       
+            case 4:
+               System.out.println("hoy es jueves");
+               
+               break;
+             
+            case 5:
+                System.out.println("hoy es viernes");
+                break;
+            
+            case 6:
+                System.out.println("hoy es sabado");
+                break;
+            
+            case 7:
+                System.out.println("hoy es domingo");
+                break;
+            
+            default:
+                System.out.println("valor no valido");
+                break;
+                
+                    
+       }
+                
+    }}
+    ----------------------------------------------------------------------------
+DEL 1 AL 100
+public class JavaApplication5 {
+
+    
+    public static void main(String[] args) {
+       
+        Scanner leer=new Scanner(System.in);
+        int =0;
+        
+        while(i<100)
+            i++}
+}
+system.out.println("");
+while(i>=1){
+system.out.print(i+",");
+i--;

@@ -1,0 +1,69 @@
+
+EJEMPLO DE TELEFONICA
+ 
+* To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package javaapplication5;
+import java.util.Scanner;//importar scanner para colocar valor como variable
+//para colocar numero variables siempre colocar Scanner
+
+ 
+  //@author pablo
+
+public class JavaApplication5 {
+
+    
+    public static void main(String[] args) {
+       
+        Scanner leer=new Scanner(System.in);
+        int n, min;
+        float total=1f;
+        String p, horario;
+        
+        System.out.println("Ingrese cuanto dura la llamada: 1= 1 a 5 min; 2= 6 a 8 min; 3= 9 a 10 min; 4= sobre 10 min");
+        n=leer.nextInt();
+                
+       switch(n){
+            case 1:
+               System.out.println("Ingrese los minutos de llamada");
+               min=leer.nextInt();
+               total= n*100;
+               break;
+               
+            case 2:
+               System.out.println("Ingrese los minutos de llamada");
+               min=leer.nextInt();
+               total= (5*100)+(n-5)*80;
+               break;
+               
+            case 3:
+               System.out.println("Ingrese los minutos de llamada");
+               min=leer.nextInt();
+               total= (5*100)+(3*80)+(n-8)*70;
+               break;
+                       
+            case 4:
+               System.out.println("Ingrese los minutos de llamada");
+               min=leer.nextInt();
+               total= (5*100)+(3*80)+(2*70)+(n-10)*50;
+               break;
+             
+            default:
+                System.out.println("Ingrese valor valido");
+                break;
+                
+                System.out.println("¿horario diurno o vespertino? (D o V)");
+                if (horario=="D"){
+                    total=total*1.15f;
+                }else{
+                    total=total*1.10f;
+                    
+       }
+                System.out.println("el total de su llamada es "+total);
+        
+       }
+    }
+    
+    

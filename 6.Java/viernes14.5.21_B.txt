@@ -1,0 +1,52 @@
+*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package javaapplication5;
+import java.util.Scanner;//importar scanner para colocar valor como variable
+//para colocar numero variables siempre colocar Scanner
+
+ 
+  //@author pablo
+
+public class JavaApplication5 {
+
+    
+    public static void main(String[] args) {
+       
+        Scanner leer=new Scanner(System.in);
+        int num1,num2,num3,a=4, suma, prom;
+        System.out.println("ingresar un valor");
+        num1=leer.nextInt();
+        System.out.println("ingrese otro valor ");
+        num2=leer.nextInt();
+        System.out.println("ingrese otro valor ");
+        num3=leer.nextInt();
+        System.out.println("ingrese otro valor ");
+        a=leer.nextInt();
+        System.out.println("ingrese otro valor ");
+        suma=num1+num2+num3+a;
+        System.out.println("el valor de la suma es "+suma);
+        prom=suma/4;
+        System.out.println("el promedio es "+prom);
+        
+         //utilización de scanner para ingresar valores para generar operaciones numericas
+        
+    }
+    
+}
+----------------------------------------------------------------------------
+public static void main(String[] args) {
+       
+        Scanner leer=new Scanner(System.in);
+        
+        
+    int num1=80, num2=20, num3=30, num4=60, suma, resta, prom;
+    suma=num1+num2+num3+num4;
+    resta=num1-num2;
+    prom=suma/4;
+    
+        System.out.println("la suma es " + suma);
+        System.out.println("la resta es " + resta);
+        System.out.println("el promedio es " + prom);

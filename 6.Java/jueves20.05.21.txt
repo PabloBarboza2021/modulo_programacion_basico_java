@@ -1,0 +1,55 @@
+multipo de 10
+
+ To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package javaapplication5;
+import java.util.Scanner;//importar scanner para colocar valor como variable
+//para colocar numero variables siempre colocar Scanner
+
+ 
+  //@author pablo
+
+public class JavaApplication5 {
+
+    
+    public static void main(String[] args) {
+       
+        Scanner leer=new Scanner(System.in);
+        int multi,i,num;
+        System.out.println("ingrese el numero que desea multiplicar");
+        multi=leer.nextInt();
+        i=1;
+        
+        while(i<100)
+            num=i%multi;
+        if(num==0){
+            System.out.print(i+".");
+    }
+    i++;
+    
+}}
+------------------------------------------------------------
+NUMERO PERFECTO
+import java.util.Scanner;//importar scanner para colocar valor como variable
+//para colocar numero variables siempre colocar Scanner
+
+ 
+  //@author pablo
+
+public class JavaApplication5 {
+
+    
+    public static void main(String[] args) {
+     long num, perfecto;  
+        Scanner leer=new Scanner(System.in);
+        
+System.out.println("un número es perfecto si es igual a las sumas de todos sus divisores positivos");
+System.out.print("escribir un número para comprobar si es perfecto o no");
+
+ if(num==6)||(num=28){System.out.println("el número ingresado es perfecto");}
+ else{System.out.println("el número no es perfecto");}
+ 
+    }
+    }
